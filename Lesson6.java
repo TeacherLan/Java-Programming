@@ -25,10 +25,13 @@ public class Lesson6 {
     // final int BIRTHYEAR = 1999;
     // final int MINUTES_PER_HOUR = 60;
     // final double EARTHS_GRAVITY = 9.8;
+    // final String FULL_NAME = "EMMAN";
 
+    //primitives 
     // byte number1 = 126; // this is byte
     // short number2 =  32_767;
     // int number3 = 1000000000;
+    // long
 
     // float number4 = 35e10f;
     // System.out.println(number4);
@@ -36,7 +39,7 @@ public class Lesson6 {
     // System.out.println(number5);
 
     boolean isRaining = true;
-    char letter = '';
+    char letter = 'A';
     System.out.println(letter);
  
  }
