@@ -78,10 +78,7 @@ class Payroll{
         System.out.println("Tax: " + tax);
         System.out.println("Net Pay: " + netPay);
         System.out.println("Whole Number: " + wholeSalary);
-        System.out.println("Eligible For Bonus " + (netPay > 15000));
-
-
-        
+        System.out.println("Eligible For Bonus? " + (netPay > 15000));
     }
 
 }
