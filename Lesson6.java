@@ -36,7 +36,7 @@ public class Lesson6 {
     // System.out.println(number5);
 
     boolean isRaining = true;
-    char letter = '00';
+    char letter = '';
     System.out.println(letter);
  
  }
