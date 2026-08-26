@@ -4,17 +4,29 @@ public class Lesson10 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
-        System.out.println("ENTER A NUMBER: ");
-        int num1 = scn.nextInt();
+        System.out.println("Please Enter Age: ");
+        int age = scn.nextInt();
 
-        if(num1 % 2 == 0){
-            System.out.println("NUMBER IS EVEN!");
+        // System.out.println((age>=18)? (age>=21)? "You are 21 or older.": "You are between 18 and 20." :"You are a minor.");
+        
+        
+
+        if (age >=18)
+        {
+            if(age>=21)
+            {
+                System.out.println("You are 21 or older.");
+            }
+            else
+            {
+                System.out.println("You are between 18 and 20.");
+            }
         }
-        else{
-            System.out.println("NUMBER IS ODD");
+
+        else
+        {
+            System.out.println("You are a minor.");
         }
-
-
 
 
         /*
