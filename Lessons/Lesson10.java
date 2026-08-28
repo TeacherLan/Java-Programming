@@ -2,31 +2,76 @@ import java.util.Scanner;
 
 public class Lesson10 {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
 
-        System.out.println("Please Enter Age: ");
-        int age = scn.nextInt();
+        //Switch Case 
+        Scanner scn = new Scanner (System.in);
+
+        System.out.println("ENTER A NUMBER: ");
+        String day = scn.next();
+
+        switch (day){
+            case "Monday":
+                System.out.println("1st");
+                break;
+            
+            case "Tuesday":
+                System.out.println("2nd");
+                break;
+            
+            case "Wednesday": 
+                System.out.println("3rd");
+                break;
+            
+            case "Thursday": 
+                System.out.println("4th");
+                break;
+            
+            case "Friday":
+                System.out.println("5th");
+                break;
+            
+            case "Saturday": 
+                System.out.println("6th");
+                break;
+            
+            case "Sunday": 
+                System.out.println("7th");
+                break;
+
+            default:
+                System.out.println("NOT A DAY OF THE WEEK!");
+
+        }
+
+
+
+
+        // If and else 
+        // Scanner scn = new Scanner(System.in);
+
+        // System.out.println("Please Enter Age: ");
+        // int age = scn.nextInt();
 
         // System.out.println((age>=18)? (age>=21)? "You are 21 or older.": "You are between 18 and 20." :"You are a minor.");
         
         
 
-        if (age >=18)
-        {
-            if(age>=21)
-            {
-                System.out.println("You are 21 or older.");
-            }
-            else
-            {
-                System.out.println("You are between 18 and 20.");
-            }
-        }
+        // if (age >=18)
+        // {
+        //     if(age>=21)
+        //     {
+        //         System.out.println("You are 21 or older.");
+        //     }
+        //     else
+        //     {
+        //         System.out.println("You are between 18 and 20.");
+        //     }
+        // }
 
-        else
-        {
-            System.out.println("You are a minor.");
-        }
+        // else
+        // {
+        //     System.out.println("You are a minor.");
+        // }
 
 
         /*
