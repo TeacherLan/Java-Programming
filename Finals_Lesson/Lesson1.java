@@ -4,18 +4,26 @@ import java.util.Scanner;
 
 public class Lesson1 {
     public static void main(String[] args) {
-         Scanner scn = new Scanner(System.in);
-         String password = "1234";
+        String password = "123"; 
+        Scanner scn = new Scanner(System.in);
 
-         System.out.println("ENTER PASSWORD: ");
-         String entered = scn.nextLine();
+        System.out.println("PLEASE ENTER PASSWORD: ");
+        String pInput = scn.nextLine();
 
-         while(!entered.equals(password)){
+        do { 
+            if(!pInput.equals(password)){
                 System.out.println("WRONG PASSWORD!");
-                System.out.println("ENTER PASSWORD: ");
-                entered = scn.nextLine();
-         }
-         System.out.println("ACCESS GRANTED!");
-         
+            }
+            else{
+                System.out.println("ACCESS GRANTED!");
+                break;
+            }
+
+            System.out.println("PLEASE ENTER PASSWORD: ");
+            pInput = scn.nextLine();
+        } 
+        while (!pInput.equals(password));
+
+        
     }
 }
